@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Chatwork Kaizen",
+  "version": "0.1.0",
+  "description": "I know the hell chatwork is",
+  "permissions": [
+      "activeTab"
+  ],
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["https://www.chatwork.com/*"],
+    "run_at": "document_start"
+  }]
+
+}

@@ -1,2 +1,6 @@
 # chatwork-ext
-Add code block, ...maybe others
+
+Chrome Extension to make chatwork being beautiful and helpful :(
+
+![chatwork codeblock](./code-cw.png)
+
